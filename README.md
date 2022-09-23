@@ -82,17 +82,7 @@ Overall, the code was written to allow customization and easy experimentation in
 
 Soon, I am looking to extract the data loading module and push my visualization code into a separate repo to use for other projects.
 
-## Please cite our paper if you find the code useful
-```
-@inproceedings{Kim21ICRA,
-  title     = {EagerMOT: 3D Multi-Object Tracking via Sensor Fusion},
-  author    = {Kim, Aleksandr, O\v{s}ep, Aljo\v{s}a and Leal-Taix{'e}, Laura},
-  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
-  year      = {2021}
-}
-```
 
-Also, please check out the related work cited in our paper for other interesting research that might interest you.
 
 
 
