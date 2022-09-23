@@ -2,10 +2,26 @@
 
 This repo is the mindspore implementation of "EagerMOT: 3D Multi-Object Tracking via Sensor Fusion"(https://arxiv.org/abs/2104.14682)
 
-## Abstract
-Multi-object tracking (MOT) enables mobile robots to perform well-informed motion planning and navigation by localizing surrounding objects in 3D space and time. Existing methods rely on depth sensors (e.g., LiDAR) to detect and track targets in 3D space, but only up to a limited sensing range due to the sparsity of the signal. On the other hand, cameras provide a dense and rich visual signal that helps to localize even distant objects, but only in the image domain. In this paper, we propose EagerMOT, a simple tracking formulation that eagerly integrates all available object observations from both sensor modalities to obtain a well-informed interpretation of the scene dynamics. Using images, we can identify distant incoming objects, while depth estimates allow for precise trajectory localization as soon as objects are within the depth-sensing range. With EagerMOT, we achieve state-of-the-art results across several MOT tasks on the KITTI and NuScenes datasets.
+## Requirements for conda
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+filterpy=1.4.5=pypi_0
+glob2=0.6=py37_1
+imageio=2.6.1=py37_0
+libopencv=3.4.2=hb342d67_1
+more-itertools=7.2.0=py37_0
+numba=0.46.0=py37h962f231_0
+numpy=1.17.2=py37haad9e8e_0
+numpy-base=1.17.2=py37hde5b4d6_0
+nuscenes-devkit=1.1.0=pypi_0
+pillow=6.2.0=py37h34e0f95_0
+pip=19.3.1=py37_0
+pyquaternion=0.9.5=pypi_0
+python=3.7.4=h265db76_1
+scipy=1.2.0=py37h7c811a0_0
+shapely=1.7.0=pypi_0
 
-![Diagram](figures/eagermot_diagram_2.png)
+## Requirements for pip
 
 ## Benchmark results
 
