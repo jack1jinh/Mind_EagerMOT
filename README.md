@@ -76,13 +76,7 @@ if __name__ == "__main__":
     run_on_nuscenes()  
     run_on_kitti()
 ```
-Start the script with `$python run_tracking.py`. Check the code itself to see what is being called. I recommend following function calls to explore how the code is structured.
-
-Overall, the code was written to allow customization and easy experimentation instead of optimizing for performance. 
-
-Soon, I am looking to extract the data loading module and push my visualization code into a separate repo to use for other projects.
-
-
+Start the script with `$python run_tracking.py`. Check the code itself to see what is being called. 
 
 
 
