@@ -2,19 +2,6 @@
 
 This repo is the mindspore implementation of "EagerMOT: 3D Multi-Object Tracking via Sensor Fusion"(https://arxiv.org/abs/2104.14682)
 
-The framework is flexible to work with any 3D/2D detection sources (we used only off-the-shelf models) and can be extended to other tracking-related tasks, e.g. MOTS.
-
-### 3D results: [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/eagermot-3d-multi-object-tracking-via-sensor/3d-multi-object-tracking-on-kitti)](https://paperswithcode.com/sota/3d-multi-object-tracking-on-kitti?p=eagermot-3d-multi-object-tracking-via-sensor) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/eagermot-3d-multi-object-tracking-via-sensor/3d-multi-object-tracking-on-nuscenes)](https://paperswithcode.com/sota/3d-multi-object-tracking-on-nuscenes?p=eagermot-3d-multi-object-tracking-via-sensor)
-
-### 2D results: [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/eagermot-3d-multi-object-tracking-via-sensor/multiple-object-tracking-on-kitti-tracking)](https://paperswithcode.com/sota/multiple-object-tracking-on-kitti-tracking?p=eagermot-3d-multi-object-tracking-via-sensor) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/eagermot-3d-multi-object-tracking-via-sensor/multi-object-tracking-and-segmentation-on-1)](https://paperswithcode.com/sota/multi-object-tracking-and-segmentation-on-1?p=eagermot-3d-multi-object-tracking-via-sensor)
-
-This repo contains code for our ICRA 2021 paper. Benchmark results can be fully reproduced with minimal work, only need to edit data location variables. If desired, our ablation results can also be reproduced by need more adjustments. 
-
-An earlier version of this work has also appeared as a short [4-page paper](https://motchallenge.net/workshops/bmtt2020/papers/EagerMOT.pdf) at the [CVPR 2020 MOTChallenge Workshop](https://motchallenge.net/workshops/bmtt2020/).
-
-![Visual](figures/test_visualization.gif)
-
-
 ## Abstract
 Multi-object tracking (MOT) enables mobile robots to perform well-informed motion planning and navigation by localizing surrounding objects in 3D space and time. Existing methods rely on depth sensors (e.g., LiDAR) to detect and track targets in 3D space, but only up to a limited sensing range due to the sparsity of the signal. On the other hand, cameras provide a dense and rich visual signal that helps to localize even distant objects, but only in the image domain. In this paper, we propose EagerMOT, a simple tracking formulation that eagerly integrates all available object observations from both sensor modalities to obtain a well-informed interpretation of the scene dynamics. Using images, we can identify distant incoming objects, while depth estimates allow for precise trajectory localization as soon as objects are within the depth-sensing range. With EagerMOT, we achieve state-of-the-art results across several MOT tasks on the KITTI and NuScenes datasets.
 
