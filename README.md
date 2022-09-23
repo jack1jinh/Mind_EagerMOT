@@ -1,6 +1,6 @@
 # EagerMOT: 3D Multi-Object Tracking via Sensor Fusion
 
-### Read our ICRA 2021 paper [here](https://arxiv.org/abs/2104.14682) or this [3 minute video](https://youtu.be/RX4xDQ0YXxE) for a quick intro or [the full presentation video](https://youtu.be/k8pKpvbenoM) for more details.
+This repo is the mindspore implementation of "Group-Free 3D Object Detection via Transformers"(https://arxiv.org/abs/2104.14682)
 
 Improve your online 3D multi-object tracking performance by using 2D detections to support tracking when 3D association fails. The method adds minimal overhead, does not rely on dedicated hardware on any particular sensor setup. The current Python implementation run at **90 FPS** on KITTI data and can definitely be optimized for actual deployment.
 
