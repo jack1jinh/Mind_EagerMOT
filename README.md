@@ -3,8 +3,8 @@
 This repo is the mindspore implementation of "EagerMOT: 3D Multi-Object Tracking via Sensor Fusion"(https://arxiv.org/abs/2104.14682)
 
 ## Requirements for conda
-# $ conda create --name <env> --file <this file>
-# platform: linux-64
+$ conda create --name <env> --file <this file>
+platform: linux-64
 filterpy=1.4.5=pypi_0
 glob2=0.6=py37_1
 imageio=2.6.1=py37_0
